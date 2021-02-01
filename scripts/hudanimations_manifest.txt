@@ -1,0 +1,8 @@
+// We put our custom animations ABOVE _tf animations so we can edit the animations we want
+// to our liking without breaking the HUD in future updates.
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_custom.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+}

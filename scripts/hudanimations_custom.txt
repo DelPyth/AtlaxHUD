@@ -1,0 +1,84 @@
+// >> Our stuff  ==================================================================================================
+
+// > Low ammo
+event HudLowAmmoPulse
+{
+    Animate HudWeaponLowAmmoImageCustom			Alpha       "255"               	Linear 	0.0 0.075
+	Animate HudWeaponLowAmmoImageCustom			Position	"3 3"					Linear 0.0 0.2
+
+    RunEvent HudLowAmmoPulseLoop            	0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+    RunEvent HudLowAmmoPulse 					0.0
+    Animate HudWeaponLowAmmoImageCustom       	Alpha       "0"         			Linear 	0.0 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+    StopEvent HudLowAmmoPulse					0.0
+    StopEvent HudLowAmmoPulseLoop				0.0
+
+	Animate HudWeaponLowAmmoImageCustom			Position	"9999 9999"				Linear 0.0 0.2
+    Animate HudWeaponLowAmmoImageCustom       	Alpha       "0"         			Linear 	0.0 0.0
+}
+
+// >> Other stuff  ================================================================================================
+
+// > Bottom left disguise outline
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage			Alpha		"175"					Linear 0.0 0.2
+
+	Animate PlayerStatusSpyOutlineImage			Position	"c-230 r140"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage			Size		"100 100"				Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide					0.5
+}
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage			Position	"c-150 r0"				Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage			Size		"0 0"					Linear 0.0 0.2
+
+	Animate PlayerStatusSpyOutlineImage			Alpha		"0"						Linear 0.2 0.1
+}
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged				0.0
+	Animate PlayerStatusSpyImage				Alpha		"255"					Linear 0.9 0.1
+}
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged				0.0
+	Animate PlayerStatusSpyImage				Alpha		"0"						Linear 0.9 0.1
+}
+
+// > Disable the movement of the chat window during Casual or Comp. I see no use as to why valve added this
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+// > Show an indicator that you hit a player. I personally have this off because it distracts me with my aim.
+event DamagedPlayer
+{
+	StopEvent HitMarker 				0.0
+	RunEvent HitMarker 					0.01
+}
+
+event HitMarker
+{
+	// Animate	CustomCrosshairImage		Alpha	"255"	Linear 0.0	0.00001
+	// Animate	CustomCrosshairImage		Alpha	"175"	Linear 0.10	0.10001
+
+	// Animate	CustomCrosshairText			FgColor	"255 0 0 255"		Linear 0.0	0.00001
+	// Animate	CustomCrosshairText			FgColor	"255 255 255 200"	Linear 0.10	0.10001
+}
