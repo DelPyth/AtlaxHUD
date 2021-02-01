@@ -1,3 +1,5 @@
+// This file contains anything that is ADDED to the HUD such as crosshairs, transparent viewmodels, etc.
+
 "Resource/HudLayout.res"
 {
 	"CustomCrosshairImage"				// Custom crosshair image

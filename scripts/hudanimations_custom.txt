@@ -79,6 +79,6 @@ event HitMarker
 	// Animate	CustomCrosshairImage		Alpha	"255"	Linear 0.0	0.00001
 	// Animate	CustomCrosshairImage		Alpha	"175"	Linear 0.10	0.10001
 
-	// Animate	CustomCrosshairText			FgColor	"255 0 0 255"		Linear 0.0	0.00001
-	// Animate	CustomCrosshairText			FgColor	"255 255 255 200"	Linear 0.10	0.10001
+	Animate CustomCrosshairImage				FgColor		"255 0 0 255"			Linear 0.0	0.00001
+	Animate CustomCrosshairImage				FgColor		"255 255 255 200"		Linear 0.10	0.10001
 }
