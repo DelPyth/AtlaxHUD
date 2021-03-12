@@ -19,10 +19,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Segoe UI"
-				"tall"			"9"
+				"name"			"productsansbold" // "Product Sans"
+				"tall"			"8"
+				"antialias" 	"1"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias" 	"1"
 			}
 		}
 		"CustomHUDText9"
@@ -1509,13 +1510,8 @@ Scheme
 			{
 				"name"			"TF2"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1524,13 +1520,8 @@ Scheme
 			{
 				"name"			"TF2"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1539,10 +1530,7 @@ Scheme
 			{
 				"name"		"TF2Secondary"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1551,12 +1539,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
+				"tall"			"10"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1567,8 +1551,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1580,8 +1562,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1592,9 +1572,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
+				"tall"		"12"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1604,9 +1583,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"14"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1616,11 +1594,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
+				"tall"		"22"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1630,11 +1605,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
+				"tall"		"38"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1645,48 +1617,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"52"
-				"tall_lodef"		"80"
-				"range" 	"0x0000 0x00FF"
+				"tall"		"44"
 				"weight"	"400"
-				"yres"		"1 599"
-				"antialias" "1"
-			}
-			"2"
-			{
-				"name"		"TF2"
-				"tall"		"72"
-				"tall_hidef"	"120"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"600 767"
-				"antialias" "1"
-			}
-			"3"
-			{
-				"name"		"TF2"
-				"tall"		"100"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"768 1023"
-				"antialias" "1"
-			}
-			"4"
-			{
-				"name"		"TF2"
-				"tall"		"140"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1024 1199"
-				"antialias" "1"
-			}
-			"5"
-			{
-				"name"		"TF2"
-				"tall"		"180"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1200 10000"
 				"antialias" "1"
 			}
 		}
@@ -1769,92 +1701,6 @@ Scheme
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"0"
-			}
-		}
-		"ChatFont"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"ChatMiniFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
 			}
 		}
 
@@ -2988,20 +2834,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
-				"weight"	"100"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow" "1"
-			}
-		}
-		"HudFontDamageCrit"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"24"
-				"weight"	"10000"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow" "1"
@@ -3093,6 +2926,17 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+
+		"ChatFont"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"13"
+				"weight"	"700"
+				"dropshadow"	"1"
 			}
 		}
 	}
@@ -3348,5 +3192,7 @@ Scheme
 			}
 		}
 		"7" "resource/ocra.ttf"
+		"8" "resource/fonts/productsansbold.ttf"
+		"9" "resource/fonts/productsansbold.ttf"
 	}
 }

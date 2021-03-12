@@ -49,7 +49,7 @@
 		"wide"							"f0"
 		"tall"							"f0"
 		"scaleImage"					"1"
-		"image"							"replay/thumbnails/REFRACTnormal_transparent"
+		"image"							"replay/thumbnails/transparent"
 
 		// To enable or disable transparent Viewmodels,
 		// simply replace the value with what you want.

@@ -9,7 +9,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2.0"
-		"delta_item_font"		"HudFontDamage" //"HudFontMediumBold"
+		"delta_item_font"		"HudFontDamage"
 		"delta_item_font_big"	"HudFontDamage"
 	}
 

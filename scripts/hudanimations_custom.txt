@@ -68,6 +68,7 @@ event HudTournament_MoveChatWindow
 }
 
 // > Show an indicator that you hit a player. I personally have this off because it distracts me with my aim.
+// But if you want to add some kind of indicator somewhere else on this hud, you can edit the positioning of the element in extras.res
 event DamagedPlayer
 {
 	StopEvent HitMarker 				0.0

@@ -210,7 +210,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-245"
-		"ypos"				"r73"
+		"ypos"				"r70"
 		"wide"				"115"
 		"tall"				"50"
 	}
@@ -436,32 +436,30 @@
 
 	HudDeathNotice
 	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "12"
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName"				"HudDeathNotice"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"r500"
+		"ypos"					"15"
+		"wide"					"500"
+		"tall"					"f0"
 
-		"MaxDeathNotices" "10"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
-		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices"		"10"
+		"IconScale"				"0.15"
+		"LineHeight"			"12"
+		"LineSpacing"			"1"
+		"CornerRadius"			"0"
+		"RightJustify"			"1"		// If 1, draw notices from the right
 
-		"TextFont"		"KillFeed"
+		"TextFont"				"KillFeed"
 
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"				"86 133 181 255"
+		"TeamRed"				"180 65 55 255"
+		"IconColor"				"255 255 255 255"
+		"LocalPlayerColor"		"12 12 12 255"
 
-		"BaseBackgroundColor"	"46 43 42 200"		[$WIN32]
-		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"0 0 0 165"
+		"LocalBackgroundColor"	"245 245 245 235"
 	}
 
 	HudVehicle
@@ -1349,12 +1347,10 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r130"
-		"ypos"			"c-154"
-		//"ypos_hidef"	"c-42"
-		//"ypos_lodef"	"c-42"
+		"xpos"			"r75"
+		"ypos"			"c-104"
 		"wide"			"390"
-		"tall"			"320"
+		"tall"			"208"
 		"PaintBackgroundType"	"0"
 	}
 
