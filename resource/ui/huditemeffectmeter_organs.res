@@ -1,30 +1,42 @@
 "Resource/UI/HudItemEffectMeter_organs.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c32"
-		"ypos"			"c82"
+		"xpos"			"r60"
+		"ypos"			"r70"
+		"xpos_minmode"	"c270"
+		"ypos_minmode"	"r38"
 		"wide"			"40"
-		"tall"			"24"
+		"tall"			"25"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 
-	"ItemEffectMeterBG"
+	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"	"BackpackItemBorder_PaintkitWeapon"
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"Background"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 
 	"ItemEffectMeterLabel"

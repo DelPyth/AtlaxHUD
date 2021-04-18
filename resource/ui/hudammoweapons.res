@@ -4,8 +4,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"c120"
-		"ypos"			"r42"
+		"xpos"			"r90"
+		"ypos"			"r40"
+		"xpos_minmode"	"c120"
+		"ypos_minmode"	"r40"
 		"zpos"			"2"
 		"wide"			"70"
 		"tall"	 		"30"

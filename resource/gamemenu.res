@@ -63,18 +63,81 @@
 		"tooltip"   	"Store"
 	}
 
-	"6v6Button"
+	// ------------------------------------------------------------------------------------
+	// ------------------------------------------------------------------------------------
+
+	"CustomButton01"
 	{
-		"label" 		"6 Player"
-		"command"   	"engine cl_hud_minmode 1"
-		"subimage"		""
+		"label" 		"1"
+		"command"   	"engine bookmark_01"
+		"tooltip"		"Bookmark 1"
 	}
-	"16v16Button"
+
+	"CustomButton02"
 	{
-		"label" 		"16 Player"
-		"command"   	"engine cl_hud_minmode 0"
-		"subimage"		""
+		"label" 		"2"
+		"command"   	"engine bookmark_02"
+		"tooltip"		"Bookmark 2"
 	}
+
+	"CustomButton03"
+	{
+		"label" 		"3"
+		"command"   	"engine bookmark_03"
+		"tooltip"		"Bookmark 3"
+	}
+
+	"CustomButton04"
+	{
+		"label" 		"4"
+		"command"   	"engine bookmark_04"
+		"tooltip"		"Bookmark 4"
+	}
+
+	"CustomButton05"
+	{
+		"label" 		"5"
+		"command"   	"engine bookmark_05"
+		"tooltip"		"Bookmark 5"
+	}
+
+	"CustomButton06"
+	{
+		"label" 		"6"
+		"command"   	"engine bookmark_06"
+		"tooltip"		"Bookmark 6"
+	}
+
+	"CustomButton07"
+	{
+		"label" 		"7"
+		"command"   	"engine bookmark_07"
+		"tooltip"		"Bookmark 7"
+	}
+
+	"CustomButton08"
+	{
+		"label" 		"8"
+		"command"   	"engine bookmark_08"
+		"tooltip"		"Bookmark 8"
+	}
+
+	"CustomButton09"
+	{
+		"label" 		"9"
+		"command"   	"engine bookmark_09"
+		"tooltip"		"Bookmark 9"
+	}
+
+	"CustomButton10"
+	{
+		"label" 		"10"
+		"command"   	"engine bookmark_10"
+		"tooltip"		"Bookmark 10"
+	}
+
+	// ------------------------------------------------------------------------------------
+	// ------------------------------------------------------------------------------------
 
 	"QuitButton"
 	{

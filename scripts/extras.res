@@ -10,23 +10,23 @@
 		// The position and size of the crosshair.
 		// Recommended to change the position to be half of the size you want to use. I.E.: 50 size = 25 pos; 32 size = 16 pos;
 		// However, not all images are made perfectly, so modify the position accordingly.
-		"xpos"							"c-16"
-		"ypos"							"c-16"
-		"wide"							"32"
-		"tall"							"32"
+		"xpos"							"c-16" // c-16
+		"ypos"							"c-16" // c-16
+		"wide"							"32" // 32
+		"tall"							"32" // 32
 
 		// The image of the crosshair.
 		// All images should be a .vtf file with a vmt to match.
 		// All images should be located in HUD\materials\vgui\replay\thumbnails\
 		// We do this so the image won't be blocked by sv_pure lists.
-		"image"							"replay/thumbnails/dot"
+		"image"							"replay/thumbnails/my_cross"
 
 		// These are unimportant to you. But if you must know...:
 		// zpos			= The z axis (or layer) to show the image. Higher numbers means it'll show over everything else.
 		// scaleimage	= AFAIK it allows the image to scale if the size of the element is different than the actual image itself.
 		//					If set to 0, it allows to crop the image if the size of the element is smaller than the image itself,
 		//					and the image stays the same if the size of the element is bigger than the image itself.
-		// alpha		= The transparency of the image. Recommended 255. The higher the number, the less transparent.
+		// alpha		= The transparency of the image. The higher the number, the less transparent.
 		"zpos"							"9"
 		"scaleImage"					"1"
 		"alpha"							"255"
@@ -35,8 +35,45 @@
 		// simply replace the value with what you want.
 		//  On			=	1
 		//  Off			=	0
-		"visible"						"1"
-		"enabled"						"1"
+		"visible"						"0"
+		"enabled"						"0"
+	}
+
+	"HitmarkerImage"					// Custom hitmarker image
+	{
+		"ControlName"					"ImagePanel"
+		"fieldname"						"HitmarkerImage"
+
+		// The position and size of the crosshair.
+		// Recommended to change the position to be half of the size you want to use. I.E.: 50 size = 25 pos; 32 size = 16 pos;
+		// However, not all images are made perfectly, so modify the position accordingly.
+		"xpos"							"c-16" // c-16
+		"ypos"							"c-16" // c-16
+		"wide"							"32" // 32
+		"tall"							"32" // 32
+
+		// The image of the crosshair.
+		// All images should be a .vtf file with a vmt to match.
+		// All images should be located in HUD\materials\vgui\replay\thumbnails\
+		// We do this so the image won't be blocked by sv_pure lists.
+		"image"							"replay/thumbnails/my_hitmarker"
+
+		// These are unimportant to you. But if you must know...:
+		// zpos			= The z axis (or layer) to show the image. Higher numbers means it'll show over everything else.
+		// scaleimage	= AFAIK it allows the image to scale if the size of the element is different than the actual image itself.
+		//					If set to 0, it allows to crop the image if the size of the element is smaller than the image itself,
+		//					and the image stays the same if the size of the element is bigger than the image itself.
+		// alpha		= The transparency of the image. The higher the number, the less transparent.
+		"zpos"							"9"
+		"scaleImage"					"1"
+		"alpha"							"0"					// This is set to 0 so it doesn't show until you deal damage.
+
+		// To enable or disable this crosshair,
+		// simply replace the value with what you want.
+		//  On			=	1
+		//  Off			=	0
+		"visible"						"0"
+		"enabled"						"0"
 	}
 
 	"TransparentVM"						// Transparent viewmodels
@@ -49,7 +86,7 @@
 		"wide"							"f0"
 		"tall"							"f0"
 		"scaleImage"					"1"
-		"image"							"replay/thumbnails/transparent"
+		"image"							"replay/thumbnails/REFRACTnormal_transparent"
 
 		// To enable or disable transparent Viewmodels,
 		// simply replace the value with what you want.

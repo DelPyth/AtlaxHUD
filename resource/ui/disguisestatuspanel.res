@@ -4,7 +4,6 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -28,6 +27,7 @@
 			"angles_z"		"0"
 		}
 	}
+
 	"DisguiseStatusBG"
 	{
 		"ControlName"			"CTFImagePanel"

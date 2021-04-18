@@ -254,7 +254,7 @@
 				"fieldName"		"YposLine"
 				"ControlName"	"EditablePanel"
 				"xpos"			"0"
-				"ypos"			"c-2"			// Edit me
+				"ypos"			"c-1"			// Edit me
 				"tall"			"2"
 				"wide"			"f0"
 				"bgcolor_override"	"255 0 221 255"

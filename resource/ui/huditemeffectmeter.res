@@ -5,8 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c120"
-		"ypos"			"r63"
+		"xpos"			"r90"
+		"ypos"			"r60"
+		"xpos_minmode"	"c120"
+		"ypos_minmode"	"r60"
 		"wide"			"70"
 		"tall"			"20"
 		"MeterFG"		"TanLight"
@@ -55,7 +57,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontMedium" // "TFFontSmall"
+		"font"					"TFFontMedium" // TFFontSmall
 		"fgcolor_override"		"Black"
 	}
 

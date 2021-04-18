@@ -5,11 +5,15 @@
 {
 	HudPlayerStatus
 	{
+		// Added minmode as to allow the spy outline to show in a normal spot.
+		// HUD animations don't allow minmode properties to change, so we just change everything here.
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"xpos_minmode"	"c-240"
+		"ypos_minmode"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
 	}
@@ -68,8 +72,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c100"
+		"xpos"			"r187"
 		"ypos"			"r45"
+		"xpos_minmode"	"c100"
+		"ypos_minmode"	"r45"
 		"wide"			"500"
 		"tall"			"100"
 	}
@@ -171,8 +177,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c195"
+		"xpos"					"r145"
 		"ypos"					"r34"
+		"xpos_minmode"			"c195"
+		"ypos_minmode"			"r34"
 		"wide"					"55"
 		"tall"  				"30"
 		"visible" 				"1"
@@ -183,8 +191,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-210"
+		"xpos"					"35"
 		"ypos"					"r152"
+		"xpos_minmode"			"c-210"
+		"ypos_minmode"			"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -209,8 +219,10 @@
 		"fieldName"			"DisguiseStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-245"
+		"xpos"				"8"
 		"ypos"				"r70"
+		"xpos_minmode"		"c-232"
+		"ypos_minmode"		"r70"
 		"wide"				"115"
 		"tall"				"50"
 	}
@@ -451,7 +463,7 @@
 		"CornerRadius"			"0"
 		"RightJustify"			"1"		// If 1, draw notices from the right
 
-		"TextFont"				"KillFeed"
+		"TextFont"				"Default"
 
 		"TeamBlue"				"86 133 181 255"
 		"TeamRed"				"180 65 55 255"
@@ -678,10 +690,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
+		"xpos" "35"
+		"ypos" "355"
 		"wide" "32"
 		"tall" "32"
 	}
@@ -691,16 +701,13 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
+		"xpos" "r145"
+		"ypos" "0"
 		"wide" "145"
 		"tall" "400"
 
 		"item_wide"	"135"
 		"item_tall"	"15"
-
 
 		"show_dead_icon"	"1"
 		"dead_xpos"			"14"
@@ -738,7 +745,7 @@
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
+		"center_x"				"0"		// center text horizontally
 		"center_y"				"-1"	// align text on the bottom
 	}
 
@@ -789,10 +796,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"7"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"separator_width"		"0"
+		"separator_height"		"0"
+		"height_offset"			"0"
 	}
 
 	HudCapturePanel

@@ -15,17 +15,68 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		"KillFeed"
+		// Font for vote menu. ----------------------
+		"CustomNotoMonoVerySmall"
 		{
 			"1"
 			{
-				"name"			"productsansbold" // "Product Sans"
-				"tall"			"8"
-				"antialias" 	"1"
-				"additive"		"0"
-				"antialias" 	"1"
+				"name" "CustomNotoMono"
+				"tall" "8"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+		"CustomNotoMonoSmall"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomNotoMonoMedium"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomNotoMonoLarge"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomNotoMonoExtraLarge"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomVerdanaSmall"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		"CustomHUDText9"
 		{
 			"1"
@@ -3192,7 +3243,16 @@ Scheme
 			}
 		}
 		"7" "resource/ocra.ttf"
-		"8" "resource/fonts/productsansbold.ttf"
+		"8" "resource/fonts/Product Sans.ttf"
 		"9" "resource/fonts/productsansbold.ttf"
+		"10"
+		{
+			"font" "resource/fonts/CustomNotoMono.otf"
+			"name" "CustomNotoMono"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+		}
 	}
 }
