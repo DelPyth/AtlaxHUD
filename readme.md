@@ -1,4 +1,4 @@
-# BetterDefaultHUD
+# AtlaxHUD
 | Question                                                   | Answer                                                                                                                                                     |
 | :----                                                      | :----                                                                                                                                                      |
 | *What is it?*                                              | A HUD designed to make things easier to see and read when playing TF2.                                                                                     |
