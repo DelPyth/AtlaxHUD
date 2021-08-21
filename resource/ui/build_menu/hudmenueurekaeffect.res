@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,12 +11,12 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -27,12 +27,12 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow"	
+
+	"BuildIconShadow"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
@@ -43,12 +43,12 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
 	}
-	
-	"BuildIcon2"	
+
+	"BuildIcon2"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon2"
@@ -59,12 +59,12 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow2"	
+
+	"BuildIconShadow2"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow2"
@@ -75,13 +75,13 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
 	}
-		
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontMediumSmallBold"
@@ -100,9 +100,9 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontMediumSmallBold"
@@ -121,9 +121,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -141,7 +141,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -152,8 +152,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -164,7 +164,7 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
+	}
 
 	"unavailable_target_1"
 	{
@@ -176,8 +176,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -195,22 +195,22 @@
 		"fieldName"		"TeamColoredBar"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"0"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"135"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_1"		"replay/thumbnails/no_border_black"
 		"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		
+
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"TargetBGShadeBox"
 	{
@@ -227,7 +227,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 90"
 		"PaintBackgroundType"	"0"
-		
+
 //		"border"		"MainMenuBGBorder"
 	}
 	"ShadedBar"
@@ -243,7 +243,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"127 127 127 135"
 		"PaintBackgroundType"	"0"
 	}

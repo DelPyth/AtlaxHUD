@@ -1,5 +1,5 @@
 "Resource/UI/HudSpellSelection.res"
-{		
+{
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -10,18 +10,18 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
+		"image"			"replay/thumbnails/no_border_black"
+		"scaleImage"	"1"
+		"teambg_1"		"replay/thumbnails/no_border_black"
+		"teambg_2"		"replay/thumbnails/no_border_red"
+		"teambg_3"		"replay/thumbnails/no_border_blu"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -34,9 +34,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
-	
+
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,11 +48,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"	"CExLabel"
@@ -67,7 +67,7 @@
 		"fgcolor"		"tanlight"
 		"visible"		"1"
 	}
-	
+
 	"SpellText"
 	{
 		"ControlName"	"CExLabel"
@@ -82,7 +82,7 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-	
+
 	"CountTextShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -97,7 +97,7 @@
 		"tall"			"24"
 		"fgcolor"		"0 0 0 255"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"	"CExLabel"

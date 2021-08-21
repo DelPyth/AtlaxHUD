@@ -265,8 +265,8 @@
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"scaleImage"		"1"
 
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 
 		"if_hybrid"
 		{

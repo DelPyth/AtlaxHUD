@@ -1334,7 +1334,7 @@
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
-		"visible"		"1"
+		"visible"		"0"												// FRIENDS--------------
 
 		"border"		"MainMenuBGBorder"
 

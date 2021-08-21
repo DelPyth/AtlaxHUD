@@ -4,13 +4,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-73"
-		"ypos"			"0"
+		"xpos"			"c-55"
+		"ypos"			"21"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -24,15 +24,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
+			"image"			"replay/thumbnails/no_border_blu"
+
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -46,11 +46,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -64,15 +64,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
 		}
-		
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"10"
@@ -84,34 +84,19 @@
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}
-
-		"playerimageshadow"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"13"
-			"ypos"			"11"
-			"zpos"			"2"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon"
-			"scaleImage"	"1"
-		}
 	}
 
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c15"
-		"ypos"			"0"
+		"xpos"			"c-5"
+		"ypos"			"21"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -125,15 +110,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
+			"image"			"replay/thumbnails/no_border_red"
+
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -147,11 +132,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -165,15 +150,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
 		}
-	
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"10"
@@ -185,20 +170,5 @@
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}
-
-		"playerimageshadow"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"13"
-			"ypos"			"11"
-			"zpos"			"2"
-			"wide"			"8"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon"
-			"scaleImage"	"1"
-		}			
 	}
 }

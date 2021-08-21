@@ -1,5 +1,6 @@
 // #base "hudhelper.res"
-#base "extras.res"
+#base "..\edits\crosshair.res"
+#base "..\edits\enabled\transparent_viewmodels.res"
 
 "Resource/HudLayout.res"
 {
@@ -13,7 +14,6 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"xpos_minmode"	"c-240"
-		"ypos_minmode"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
 	}

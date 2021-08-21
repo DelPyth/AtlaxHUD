@@ -18,29 +18,7 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-			//"team1_player_base_x"             "768"
-			"team1_player_base_y"           "70"
-			"team1_player_delta_x"          "55"
-			"team1_player_delta_y"          "0"
-		}
 		
-//		if_mvm
-//		{
-//			"xpos"					"c-250"
-//			"ypos"					"6"
-//			"wide"					"500"
-//			"tall"					"180"
-//	
-//			"team1_player_delta_x"			"52"
-//		}
-
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -217,7 +195,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"DefaultSmall"
-				"xpos"			"25"
+				"xpos"			"2"
 				"ypos"			"17"
 				"zpos"			"6"
 				"wide"			"25"
@@ -254,6 +232,16 @@
 				"tall"		"35"
 			}
 		}
+		
+		if_mvm
+		{
+			"xpos"					"c-250"
+			"ypos"					"6"
+			"wide"					"500"
+			"tall"					"180"
+	
+			"team1_player_delta_x"			"52"
+		}		
 	}
 
 	"topbar"
@@ -261,14 +249,14 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"0"
+		"tall"			"33"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"visible"		"0"
-		"ypos"			"480"
+		"ypos"			"100"
 		"tall"			"0"
 	}
 	"bottombarblank"
@@ -282,9 +270,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
-		"ypos"			"r75"
-		"wide"			"600"
+		"xpos"			"c-150"
+		"ypos"			"32"
+		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -292,28 +280,31 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSpectator"
+		"font"			"HudFontSmall"
 		
 		if_mvm
 		{
-			"ypos"			"r135"
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
 		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-300"
-		"ypos"			"r120"
-		"wide"			"600"
-		"tall"			"18"
-		"autoResize"		"0"
+		"xpos"			"c-190"
+		"ypos"			"16"
+		"wide"			"380"
+		"tall"			"14"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
-		"textAlignment"		"center"
-		"font"			"HudFontSpectator"
+		"textAlignment"	"center"
+		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -396,6 +387,7 @@
 		"model_tall"		"55"
 		
 		"text_xpos"		"90"
+		//"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
@@ -430,5 +422,38 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+		
+		"attriblabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"attriblabel"
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"south"
+			"fgcolor"		"235 226 202 255"
+			"centerwrap"	"1"
+		}
 	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }

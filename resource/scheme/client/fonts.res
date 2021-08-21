@@ -15,73 +15,11 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		// Font for vote menu. ----------------------
-		"CustomNotoMonoVerySmall"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "8"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomNotoMonoSmall"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomNotoMonoMedium"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomNotoMonoLarge"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomNotoMonoExtraLarge"
-		{
-			"1"
-			{
-				"name" "CustomNotoMono"
-				"tall" "16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomVerdanaSmall"
-		{
-			"1"
-			{
-				"name" "Verdana"
-				"tall" "7"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
 		"CustomHUDText9"
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"9"
 				"additive"		"0"
 				"antialias"		"1"
@@ -91,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -101,7 +39,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
@@ -111,7 +49,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -121,7 +59,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -131,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"15"
 				"additive"		"0"
 				"antialias"		"1"
@@ -141,7 +79,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -151,7 +89,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -161,7 +99,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -171,7 +109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"22"
 				"additive"		"0"
 				"antialias"		"1"
@@ -181,7 +119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -191,7 +129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"26"
 				"additive"		"0"
 				"antialias"		"1"
@@ -201,7 +139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -211,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"30"
 				"additive"		"0"
 				"antialias"		"1"
@@ -221,7 +159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -231,7 +169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"34"
 				"additive"		"0"
 				"antialias"		"1"
@@ -241,7 +179,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"36"
 				"additive"		"0"
 				"antialias"		"1"
@@ -251,7 +189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"38"
 				"additive"		"0"
 				"antialias"		"1"
@@ -261,7 +199,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -271,7 +209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"42"
 				"additive"		"0"
 				"antialias"		"1"
@@ -281,7 +219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"44"
 				"additive"		"0"
 				"antialias"		"1"
@@ -291,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"46"
 				"additive"		"0"
 				"antialias"		"1"
@@ -301,7 +239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"TF2 Modified"
 				"tall"			"48"
 				"additive"		"0"
 				"antialias"		"1"
@@ -974,7 +912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1020,7 +958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1033,7 +971,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1079,7 +1017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1090,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1157,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1179,7 +1117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1192,7 +1130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1235,7 +1173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1523,7 +1461,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1611,7 +1549,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1633,7 +1571,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -1644,7 +1582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"22"
 				"weight"	"500"
 				"antialias" "1"
@@ -1655,7 +1593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias" "1"
@@ -1678,7 +1616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1689,7 +1627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1701,7 +1639,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1870,7 +1808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1898,7 +1836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1907,7 +1845,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1957,7 +1895,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1968,7 +1906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2098,7 +2036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2119,7 +2057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2130,7 +2068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2141,7 +2079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2317,7 +2255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2326,7 +2264,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2335,7 +2273,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2348,7 +2286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2358,7 +2296,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2368,7 +2306,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2382,7 +2320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2391,7 +2329,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2400,7 +2338,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2413,7 +2351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2425,7 +2363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2437,7 +2375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2544,7 +2482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2654,7 +2592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2694,7 +2632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2707,7 +2645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"14"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -2735,7 +2673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2 Modified"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3065,8 +3003,8 @@ Scheme
 		}
 		"4"
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "resource/fonts/tf2modified.ttf"
+			"name" "TF2 Modified"
 			"english"
 			{
 				"range" "0x0000 0x2014"
@@ -3243,16 +3181,5 @@ Scheme
 			}
 		}
 		"7" "resource/ocra.ttf"
-		"8" "resource/fonts/Product Sans.ttf"
-		"9" "resource/fonts/productsansbold.ttf"
-		"10"
-		{
-			"font" "resource/fonts/CustomNotoMono.otf"
-			"name" "CustomNotoMono"
-			"english" 
-			{
-				"range" "0x021 0xFFFF" 
-			}
-		}
 	}
 }

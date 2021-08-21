@@ -26,7 +26,7 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
+		"image"			"../materials/hud/class_scoutred"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage"
@@ -308,13 +308,13 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/no_border_black"
 			"scaleImage"			"1"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/color_panel_red"
-			"teambg_2_lodef"		"../hud/color_panel_red"
-			"teambg_3"				"../hud/color_panel_blu"
-			"teambg_3_lodef"		"../hud/color_panel_blu"
+			"teambg_1"				"replay/thumbnails/no_border_black"
+			"teambg_2"				"replay/thumbnails/no_border_red"
+			"teambg_2_lodef"		"replay/thumbnails/no_border_red"
+			"teambg_3"				"replay/thumbnails/no_border_blu"
+			"teambg_3_lodef"		"replay/thumbnails/no_border_blu"
 			"proportionaltoparent"	"1"
 
 			"src_corner_height"		"23"				// pixels inside the image

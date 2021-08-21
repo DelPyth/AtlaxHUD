@@ -13,19 +13,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"teambg_1"		"replay/thumbnails/no_border_black"
+		"teambg_2"		"replay/thumbnails/no_border_red"
+		"teambg_2_lodef"	"replay/thumbnails/no_border_red"
+		"teambg_3"		"replay/thumbnails/no_border_blu"
+		"teambg_3_lodef"	"replay/thumbnails/no_border_blu"
 
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -40,14 +40,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/no_border_blu"
+		"image_lodef"	"replay/thumbnails/no_border_blu"
 
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -62,14 +62,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"image"			"replay/thumbnails/no_border_red"
+		"image_lodef"	"replay/thumbnails/no_border_red"
 
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 
 	"TargetNameLabel"

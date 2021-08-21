@@ -64,7 +64,6 @@ Scheme
 		// this is the symbol font
 		"Marlett"
 		{
-
 			"1"
 			{
 				"name"		"Marlett"
@@ -155,10 +154,46 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"14"
-				"weight"	"700"
+				"name"			"Stratum 2 Bold"
+				"tall"			"14"
+				"weight"		"700"
 				"dropshadow"	"1"
+				"yres"			"480 599"
+			}
+			"2"
+			{
+				"name"			"Stratum 2 Bold"
+				"tall"			"14"
+				"weight"		"700"
+				"dropshadow"	"1"
+				"yres"			"600 767"
+			}
+			"3"
+			{
+				"name"			"Stratum 2 Bold"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"768 1023"
+				"dropshadow"	"1"
+				"antialias"		"1"
+			}
+			"4"
+			{
+				"name"			"Stratum 2 Bold"
+				"tall"			"20"
+				"weight"		"700"
+				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"1024 1199"
+			}
+			"5"
+			{
+				"name"			"Stratum 2 Bold"
+				"tall"			"20"
+				"weight"		"700"
+				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"1200 6000"
 			}
 		}
 	}
@@ -170,5 +205,10 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"
+		"3"
+		{
+			"font" "resource/fonts/Stratum2Bold.ttf"
+			"name" "Stratum 2 Bold"
+		}
 	}
 }

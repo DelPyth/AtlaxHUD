@@ -219,16 +219,16 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"image"				"../hud/color_panel_brown"
+		"image"				"replay/thumbnails/no_border_black"
 
 		if_match
 		{
 			"visible"		"1"
-			"src_corner_height"		"60"				// pixels inside the image
-			"src_corner_width"		"60"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
 		}
 	}
 

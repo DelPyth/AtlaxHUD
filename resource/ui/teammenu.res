@@ -63,7 +63,7 @@
 		"font"			"HudFontMediumSmall"
 		"brighttext"	"1"
 	}
-	
+
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -91,7 +91,7 @@
 		"font"			"DOY"
 		"fgcolor"		"0 0 0 0"
 	}
-	
+
 	"BluText"
 	{
 		"ControlName"	"CExLabel"
@@ -134,12 +134,12 @@
 		"paintborder"	"0"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
-		"associated_model"	"reddoor"	
+		"associated_model"	"reddoor"
 		"hover"				"2.0"
 		"font"			"DERP"
 		"fgcolor"		"0 0 0 0"
 	}
-	
+
 	"RedText"
 	{
 		"ControlName"	"CExLabel"
@@ -185,7 +185,7 @@
 		"font"			"BUGGG"
 		"fgcolor"		"0 0 0 0"
 	}
-	
+
 	"RandomText"
 	{
 		"ControlName"	"CExLabel"
@@ -203,7 +203,7 @@
 		"textAlignment"		"Center"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -224,7 +224,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"associated_model"	"SpectateFrame"	
+		"associated_model"	"SpectateFrame"
 		"font"			"WEHHH"
 		"fgcolor"		"0 0 0 0"
 	}
@@ -245,7 +245,7 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"255 255 255 255"
 	}
-	// "CancelButton" [$WIN32] 
+	// "CancelButton" [$WIN32]
 	// {
 		// "ControlName"	"CTFButton"
 		// "fieldName"		"CancelButton"
@@ -269,7 +269,7 @@
 		// "command"		"cancelmenu"
 		// "font"			"MenuSmallFont"
 	// }
-	"CancelButton" [$WIN32] 
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"CancelButton"
@@ -294,7 +294,7 @@
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallestBold"
 	}
-	
+
 	"TeamMenuSelect"
 	{
 		"ControlName"	"CExLabel"
@@ -320,7 +320,7 @@
 		"font"			"MenuMainTitle"
 		"fgcolor"		"HudOffWhite"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -330,7 +330,7 @@
 		"xpos_hidef"			"c-260"
 		"ypos"			"c-36"
 		"zpos"			"2"
-		"wide"			"100" [$WIN32] 
+		"wide"			"100" [$WIN32]
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -344,7 +344,7 @@
 		"font"			"default"
 		"fgcolor"		"White"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
@@ -374,7 +374,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"autoResize"	"0"
@@ -382,7 +382,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/effects/cappoint_hologram.mdl" //"models/vgui/UI_team01.mdl"
@@ -396,8 +396,8 @@
 			"origin_y" "0"
 			"origin_z" "0"
 		}
-	}	
-	
+	}
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -415,11 +415,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}		
-	
+	}
+
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -440,8 +440,8 @@
 		"brighttext"	"1"
 		"font"			"HudFontSmall"
 		"fgcolor"		"White"
-	}		
-	
+	}
+
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -461,7 +461,7 @@
 		"brighttext"	"1"
 		"font"			"HudFontSmall"
 		"fgcolor"		"White"
-	}	
+	}
 
 	"Blueframe"
 	{
@@ -469,7 +469,7 @@
 		"fieldName"		"Blueframe"
 		"xpos"			"c-50"
 		"ypos"			"200"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
 		"autoResize"	"0"
@@ -477,19 +477,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/no_border_blu"
 		"src_corner_height"	"23"
 		"src_corner_width"	"23"
-		
+
 		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
+		"draw_corner_height" 	"3"
 
 	}
-	
+
 	"Redframe"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Redframe"		
+		"fieldName"		"Redframe"
 		"xpos"			"c1"
 		"ypos"			"200"
 		"zpos"			"1"
@@ -500,14 +500,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_red"
-		"src_corner_height"	"23"
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
-	}	
-	
+		"image"			"replay/thumbnails/no_border_red"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}
+
 	"BlueLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -530,8 +530,8 @@
 		"brighttext"	"1"
 		"font"			"rxpSmall"
 		"fgcolor"		"White"
-	}		
-	
+	}
+
 	"RedLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -554,7 +554,8 @@
 		"brighttext"	"1"
 		"font"			"default"
 		"fgcolor"		"White"
-	}	
+	}
+
 	"BluePlayersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -577,8 +578,8 @@
 		"brighttext"	"1"
 		"font"			"default"
 		"fgcolor"		"White"
-	}	
-	
+	}
+
 	"RedPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -602,14 +603,14 @@
 		"font"			"default"
 		"fgcolor"		"White"
 	}
-	
+
 	"RandomFrame"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RandomFrame"
 		"xpos"			"c-50"
 		"ypos"			"180"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"101"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -617,14 +618,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"23"
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
-	}		
-	
+		"image"			"replay/thumbnails/no_border_black"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}
+
 	"SpectateFrame"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -639,14 +640,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"src_corner_height"	"23"
 		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
-		
-	}	
+
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+
+	}
 
 	"RedLogo"
 	{
@@ -676,9 +677,9 @@
 		"enabled"		"1"
 		"image"			"progress_bar_blu"
 		"scaleImage"	"1"
-	}		
+	}
 
-	"HighlanderLabel" [$WIN32] 
+	"HighlanderLabel" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
@@ -699,8 +700,8 @@
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
-	
-	"HighlanderLabelShadow" [$WIN32] 
+
+	"HighlanderLabelShadow" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
@@ -721,8 +722,8 @@
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
-	
-	"TeamsFullLabel" [$WIN32] 
+
+	"TeamsFullLabel" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
@@ -743,8 +744,8 @@
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
-	
-	"TeamsFullLabelShadow" [$WIN32] 
+
+	"TeamsFullLabelShadow" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
@@ -778,6 +779,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/arrow_big_down"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

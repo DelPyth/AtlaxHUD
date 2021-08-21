@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -11,19 +11,19 @@
 		"tall"	 		"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"		
+		"teambg_1"		"replay/thumbnails/no_border_black"
+		"teambg_2"		"replay/thumbnails/no_border_red"
+		"teambg_3"		"replay/thumbnails/no_border_blu"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -67,9 +67,9 @@
 		"font"			"HudFontSpectator"
 		"fgcolor"		"White"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -77,7 +77,7 @@
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"142"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -85,10 +85,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
@@ -96,7 +96,7 @@
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"30"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -107,7 +107,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
@@ -115,7 +115,7 @@
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"30"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -126,7 +126,7 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
@@ -134,7 +134,7 @@
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"30"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -145,7 +145,7 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
@@ -153,7 +153,7 @@
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"30"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -162,7 +162,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -175,9 +175,9 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -190,7 +190,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 }

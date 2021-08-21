@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
@@ -30,7 +30,7 @@
 		"tabPosition"		"0"
 	}
 
-	"Skip" [$WIN32] 
+	"Skip" [$WIN32]
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -54,7 +54,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"Continue" [$WIN32] 
+	"Continue" [$WIN32]
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
@@ -77,8 +77,8 @@
 		"default"		"1"
 		"font"			"MenuSmallFont"
 	}
-	
-	"Back" [$WIN32] 
+
+	"Back" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -121,7 +121,7 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MenuBG2"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -133,15 +133,15 @@
 		"tall"	 		"350"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-	}					
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
 
 	"ShadedBar"
 	{
@@ -160,7 +160,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
 	}
@@ -171,7 +171,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"1"
 		"tall"			"1"
 		"autoResize"	"0"
@@ -179,7 +179,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -192,19 +192,19 @@
 			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
-			
+
 			"animation"
 			{
 				"name"			"Up"
 				"sequence"		"screenup"
 			}
-			
+
 			"animation"
 			{
 				"name"			"UpSlow"
 				"sequence"		"screenup_slow"
 			}
-			
+
 			"animation"
 			{
 				"name"			"Down"
@@ -212,7 +212,7 @@
 				"default"		"1"
 			}
 		}
-	}	
+	}
 
 	"VideoPanel"
 	{
@@ -220,7 +220,7 @@
 		"fieldName"		"VideoPanel"
 		"xpos"			"c-145"
 		"ypos"			"c-163"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"225"
 		"autoResize"	"0"
@@ -251,5 +251,5 @@
 		"font"			"IntroMenuCaption"
 		"fgcolor"		"White"
 		"centerwrap"			"1"
-	}	
+	}
 }

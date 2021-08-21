@@ -63,7 +63,7 @@
 		"font"			"HudFontMediumSmall"
 		"brighttext"	"1"
 	}
-	
+
 	"RedText1"
 	{
 		"ControlName"	"CExLabel"
@@ -109,7 +109,7 @@
 		"font"			"CATSSSSS"
 		"fgcolor"		"0 0 0 0"
 	}
-	
+
 	"RandomText"
 	{
 		"ControlName"	"CExLabel"
@@ -127,7 +127,7 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -148,7 +148,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"associated_model"	"SpectateFrame"	
+		"associated_model"	"SpectateFrame"
 		"font"			"DROP"
 		"fgcolor"		"0 0 0 0"
 	}
@@ -170,8 +170,8 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"255 255 255 255"
 	}
-	
-	// "CancelButton" [$WIN32] 
+
+	// "CancelButton" [$WIN32]
 	// {
 		// "ControlName"	"CTFButton"
 		// "fieldName"		"CancelButton"
@@ -195,7 +195,7 @@
 		// "command"		"cancelmenu"
 		// "font"			"MenuSmallFont"
 	// }
-	"CancelButton" [$WIN32] 
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"CancelButton"
@@ -220,7 +220,7 @@
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallestBold"
 	}
-	
+
 	"TeamMenuSelect"
 	{
 		"ControlName"	"CExLabel"
@@ -246,7 +246,7 @@
 		"font"			"MenuMainTitle"
 		"fgcolor"		"HudOffWhite"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -256,7 +256,7 @@
 		"xpos_hidef"			"c-260"
 		"ypos"			"c-36"
 		"zpos"			"2"
-		"wide"			"100" [$WIN32] 
+		"wide"			"100" [$WIN32]
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -270,7 +270,7 @@
 		"font"			"default"
 		"fgcolor"		"White"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
@@ -300,7 +300,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"autoResize"	"0"
@@ -308,7 +308,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_team01.mdl"
@@ -322,8 +322,8 @@
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
-	}	
-	
+	}
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -341,11 +341,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}		
-	
+	}
+
 	"RedLogo"
 	{
 		"ControlName"	"ImagePanel"
@@ -359,14 +359,14 @@
 		"enabled"		"1"
 		"image"			"progress_bar"
 		"scaleImage"	"1"
-	}		
+	}
 	"Blueframe"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Blueframe"
 		"xpos"			"c-50"
 		"ypos"			"200"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"autoResize"	"0"
@@ -374,22 +374,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_red"
+		"image"			"replay/thumbnails/no_border_red"
 		"src_corner_height"	"23"
 		"src_corner_width"	"23"
-		
+
 		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
+		"draw_corner_height" 	"3"
 
 	}
-	
+
 	"RandomFrame"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RandomFrame"
 		"xpos"			"c-50"
 		"ypos"			"180"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -397,14 +397,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"src_corner_height"	"23"
 		"src_corner_width"	"23"
-		
+
 		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
-	}		
-	
+		"draw_corner_height" 	"3"
+	}
+
 	"SpectateFrame"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -419,13 +419,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"src_corner_height"	"23"
 		"src_corner_width"	"23"
-		
+
 		"draw_corner_width"	"3"
-		"draw_corner_height" 	"3"	
-		
-	}			
+		"draw_corner_height" 	"3"
+
+	}
 }
 

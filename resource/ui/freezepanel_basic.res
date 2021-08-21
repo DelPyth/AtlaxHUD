@@ -96,7 +96,7 @@
 			"tall"			"48"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"replay/thumbnails/no_border_blu"
 			"scaleImage"		"1"
 		}
 
@@ -243,7 +243,7 @@
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"replay/thumbnails/no_border_blu"
 			"scaleImage"		"1"
 
 			"src_corner_height"		"23"				// pixels inside the image
@@ -347,14 +347,14 @@
 				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/color_panel_brown"
+				"image"			"replay/thumbnails/no_border_black"
 				"scaleImage"		"1"
 
 				"src_corner_height"		"23"				// pixels inside the image
 				"src_corner_width"		"23"
 
-				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"
+				"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"5"
 			}
 			"NemesisIcon"
 			{

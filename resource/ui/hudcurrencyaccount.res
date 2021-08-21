@@ -13,10 +13,10 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
+	}
+
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -30,10 +30,10 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
-	
+	}
+
 	"WhiteBG"
 	{
 		"ControlName"	"CTFImagePanel" //"EditablePanel"
@@ -47,16 +47,16 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"	
-	}	
-	
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+
 	"GreenBG"
 	{
 		"ControlName"	"EditablePanel"

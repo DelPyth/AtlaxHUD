@@ -13,7 +13,6 @@
 	}
 	"specgui"
 	{
-
 	}
 	"topbar"
 	{
@@ -21,8 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
-		"tall"			"104"	[$X360]
+		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"

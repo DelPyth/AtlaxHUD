@@ -14,13 +14,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-209"
-		"xpos_lodef"			"c-174"	
+		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"95"
 		"ypos_lodef"			"110"
@@ -36,7 +36,7 @@
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -57,8 +57,8 @@
 		"textAlignment"	"west"
 		"font"			"ChalkboardText"
 		"fgcolor"		"Gray"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CTFRichText"
@@ -84,7 +84,7 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"Gray"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -105,7 +105,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue" [$WIN32]
@@ -131,7 +131,7 @@
 		"default"		"1"
 		"font"			"MenuSmallFont"
 	}
-	
+
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CTFButton"
@@ -154,7 +154,7 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MapInfoBack" [$WIN32]
 	{
 		"ControlName"	"CTFButton"
@@ -176,7 +176,7 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -188,15 +188,15 @@
 		"tall"	 		"350"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/no_border_black"
 		"scaleImage"		"1"
-		
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-	}					
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
 
 	"ShadedBar"
 	{
@@ -215,10 +215,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 
 	"Footer" [$X360]
 	{
@@ -235,20 +235,20 @@
 		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
+		"fgcolor"			"HudOffWhite"
+
 		"button"
 		{
 			"name"		"intro"
 			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
+			"icon"		"#GameUI_Icons_Y_BUTTON"
 		}
-		
+
 		"button"
 		{
 			"name"		"continue"
 			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
-	}	
+	}
 }

@@ -42,8 +42,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c195"
-		"ypos"			"r36"
+		"xpos"			"r135"
+		"ypos"			"r37"
+		"xpos_minmode"	"c195"
+		"ypos_minmode"	"r37"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"24"
@@ -60,17 +62,17 @@
 			"tall"					"24"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/no_border_black"
 			"scaleImage"			"1"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/color_panel_red"
-			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_1"				"replay/thumbnails/no_border_black"
+			"teambg_2"				"replay/thumbnails/no_border_red"
+			"teambg_3"				"replay/thumbnails/no_border_blu"
 
-			"src_corner_height"		"60"				// pixels inside the image
-			"src_corner_width"		"60"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
 		}
 
 		"NumPipesLabel"
@@ -115,8 +117,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"c195"
-		"ypos"			"r36"
+		"xpos"			"r135"
+		"ypos"			"r37"
+		"xpos_minmode"	"c195"
+		"ypos_minmode"	"r37"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"24"
@@ -133,17 +137,17 @@
 			"tall"					"24"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/no_border_black"
 			"scaleImage"			"1"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/color_panel_red"
-			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_1"				"replay/thumbnails/no_border_black"
+			"teambg_2"				"replay/thumbnails/no_border_red"
+			"teambg_3"				"replay/thumbnails/no_border_blu"
 
-			"src_corner_height"		"60"				// pixels inside the image
-			"src_corner_width"		"60"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
 
-			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
 		}
 
 		"NumPipesLabel"
